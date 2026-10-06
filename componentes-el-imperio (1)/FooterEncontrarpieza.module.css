@@ -1,0 +1,29 @@
+.footer { background: #14202b; color: #fff; padding: 56px 24px 0; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1.6fr 1fr;
+  gap: 48px;
+}
+.container2 { display: flex; flex-direction: column; gap: 12px; }
+.heading3 { font-size: 20px; }
+.metalMecnicaEl { font-weight: 700; }
+.paragraph, .proveedorLderDe { font-size: 14px; line-height: 1.6; color: #b9c4d0; }
+.productsCompanyPanel { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.container3, .container4 { display: flex; flex-direction: column; gap: 16px; }
+.heading4 { font-size: 16px; font-weight: 700; }
+.productos, .empresa, .contacto { color: #fff; }
+.list { display: flex; flex-direction: column; gap: 10px; }
+.listItem { line-height: 1.4; }
+.bisagras { font-size: 14px; color: #b9c4d0; }
+.container6 {
+  max-width: 1200px;
+  margin: 48px auto 0;
+  padding: 20px 0 24px;
+  border-top: 1px solid #22364a;
+  text-align: center;
+}
+@media (max-width: 860px) {
+  .container { grid-template-columns: 1fr; gap: 32px; }
+}

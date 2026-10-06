@@ -1,0 +1,5 @@
+.section { padding: 72px 24px; background: #eef1f4; }
+.inner { max-width: 1200px; margin: 0 auto; }
+.title { margin: 0 0 8px; font-size: 32px; color: #14202b; }
+.subtitle { margin: 0 0 32px; max-width: 56ch; font-size: 16px; color: #5b6b7a; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }

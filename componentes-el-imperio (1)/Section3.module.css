@@ -1,0 +1,7 @@
+.section { padding: 56px 24px; background: #14202b; color: #fff; }
+.inner { max-width: 1200px; margin: 0 auto; }
+.stats { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; }
+.stat { display: flex; flex-direction: column-reverse; gap: 4px; }
+.value { margin: 0; font-size: 48px; font-weight: 800; line-height: 1; color: #f2a900; }
+.label { font-size: 16px; color: #b9c4d0; }
+.note { margin: 28px 0 0; font-size: 12px; color: #6f8296; }

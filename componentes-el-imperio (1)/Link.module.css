@@ -1,0 +1,14 @@
+.link {
+  color: #c9d3de;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.link:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
+.link:focus-visible { outline: 2px solid #f2a900; outline-offset: 2px; }
+.active { background: #f2a900; color: #14202b; font-weight: 700; }
+.active:hover { background: #f2a900; color: #14202b; }

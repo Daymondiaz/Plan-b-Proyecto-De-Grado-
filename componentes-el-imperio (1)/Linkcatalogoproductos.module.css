@@ -1,0 +1,13 @@
+.link {
+  color: #3d4b59;
+  text-decoration: none;
+  padding: 26px 4px 22px;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.link:hover { color: #14202b; border-bottom-color: #c9d3de; }
+.link:focus-visible { outline: 2px solid #14202b; outline-offset: 2px; }
+.active { color: #14202b; font-weight: 700; border-bottom-color: #f2a900; }
+.active:hover { border-bottom-color: #f2a900; }

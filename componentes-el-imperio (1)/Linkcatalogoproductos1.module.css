@@ -1,0 +1,29 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: #3d4b59;
+  font: inherit;
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.link:hover { background: #eef1f4; }
+.link:focus-visible { outline: 2px solid #14202b; outline-offset: 2px; }
+.active { background: #fff6dc; border-color: #f2a900; color: #14202b; font-weight: 700; }
+.count {
+  min-width: 26px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e1e6eb;
+  font-size: 12px;
+  text-align: center;
+}
+.active .count { background: #f2a900; }

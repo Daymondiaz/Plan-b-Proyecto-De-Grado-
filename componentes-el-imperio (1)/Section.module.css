@@ -1,0 +1,8 @@
+.section { background: #14202b; color: #fff; padding: 96px 24px; }
+.inner { max-width: 1200px; margin: 0 auto; }
+.title { margin: 0 0 20px; max-width: 20ch; font-size: clamp(36px, 6vw, 64px); line-height: 1.05; }
+.text { margin: 0 0 32px; max-width: 56ch; font-size: 18px; line-height: 1.55; color: #b9c4d0; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.secondary { padding: 11px 20px; border: 2px solid #4a5d70; border-radius: 8px; background: transparent; color: #fff; font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; }
+.secondary:hover { border-color: #fff; }
+.secondary:focus-visible { outline: 3px solid #f2a900; outline-offset: 2px; }

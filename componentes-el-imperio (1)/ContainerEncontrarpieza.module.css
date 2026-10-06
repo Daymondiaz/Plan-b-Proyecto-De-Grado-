@@ -1,0 +1,72 @@
+.panel {
+  padding: 32px;
+  border: 1px solid #dfe5ea;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(20, 32, 43, 0.12);
+}
+.searchLabel { display: block; margin-bottom: 10px; font-size: 18px; font-weight: 700; color: #14202b; }
+.searchRow { position: relative; }
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  height: 64px;
+  padding: 0 56px 0 20px;
+  border: 2px solid #c9d3de;
+  border-radius: 10px;
+  font: inherit;
+  font-size: 18px;
+  color: #14202b;
+}
+.searchInput:focus { outline: none; border-color: #14202b; box-shadow: 0 0 0 4px rgba(242, 169, 0, 0.35); }
+.clear {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 50%;
+  background: #eef1f4;
+  color: #3d4b59;
+  font-size: 16px;
+  cursor: pointer;
+}
+.clear:hover { background: #dfe5ea; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+.chip {
+  padding: 10px 20px;
+  border: 2px solid #c9d3de;
+  border-radius: 999px;
+  background: #fff;
+  color: #3d4b59;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.chip:hover { border-color: #14202b; }
+.chip:focus-visible { outline: 3px solid #f2a900; outline-offset: 2px; }
+.chipActive { background: #14202b; border-color: #14202b; color: #fff; }
+.filtersRow { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 20px; }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 190px; }
+.field label { font-size: 13px; font-weight: 600; color: #5b6b7a; }
+.field select {
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid #c9d3de;
+  border-radius: 8px;
+  background: #fff;
+  font: inherit;
+  font-size: 15px;
+  color: #14202b;
+}
+.check { display: flex; align-items: center; gap: 8px; height: 44px; font-size: 15px; color: #14202b; cursor: pointer; }
+.check input { width: 18px; height: 18px; accent-color: #14202b; }
+.count { margin: 20px 0 0; font-size: 14px; font-weight: 600; color: #5b6b7a; }
+@media (max-width: 640px) {
+  .panel { padding: 20px; }
+  .searchInput { height: 56px; font-size: 16px; }
+  .field { min-width: 100%; }
+}

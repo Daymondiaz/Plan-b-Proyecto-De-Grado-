@@ -1,0 +1,4 @@
+.container { max-width: 1200px; margin: 0 auto; padding: 40px 24px; }
+.heading { margin-bottom: 24px; }
+.title { margin: 0 0 6px; font-size: 28px; color: #14202b; }
+.subtitle { margin: 0; max-width: 62ch; font-size: 16px; line-height: 1.5; color: #5b6b7a; }

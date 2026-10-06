@@ -1,0 +1,17 @@
+.section { padding: 72px 24px; background: #eef1f4; }
+.inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.3fr; gap: 48px; align-items: start; }
+.title { margin: 0 0 10px; font-size: 32px; color: #14202b; }
+.text { margin: 0; max-width: 38ch; font-size: 16px; line-height: 1.55; color: #5b6b7a; }
+.form, .success { padding: 28px; border: 1px solid #dfe5ea; border-radius: 12px; background: #fff; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.field label { font-size: 14px; font-weight: 600; color: #14202b; }
+.field input, .field textarea { padding: 10px 12px; border: 1px solid #c9d3de; border-radius: 8px; font: inherit; font-size: 15px; }
+.field input:focus, .field textarea:focus { outline: none; border-color: #14202b; box-shadow: 0 0 0 3px rgba(242, 169, 0, 0.35); }
+.error { font-size: 13px; color: #b42318; }
+.success h3 { margin: 0 0 8px; font-size: 22px; }
+.success p { margin: 0 0 20px; color: #3d4b59; line-height: 1.5; }
+@media (max-width: 860px) {
+  .inner { grid-template-columns: 1fr; gap: 28px; }
+  .row { grid-template-columns: 1fr; gap: 0; }
+}
